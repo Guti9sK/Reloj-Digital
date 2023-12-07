@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Serif", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+  background-color: #d4b996;
+}
+
+h1 {
+  color: #c00;
+  text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+#hora {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+#reloj {
+  font-size: 1.4rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 3%;
+  box-shadow: 0.5rem 0.5rem 6px rgba(0, 0, 0, 0.7);
+  padding: 4rem;
+  background-color: #d3d3d3;
+}
+
+@media screen and (max-width: 542px) {
+  #reloj {
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+
+  #hora {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 362px) {
+  #reloj {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  #hora {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
